@@ -1,7 +1,7 @@
 $(function() {
   new fullpage("#fullpage", {
       // (기본값 none) 각 구역별 CSS background-color 속성을 정의
-      sectionsColor: ['yellowgreen','#eee','rgb(239,219,178,0.2)','#eee','rgb(239,219,178,0.2)'],
+      sectionsColor: ['#72928d','#eee','rgb(239,219,178,0.2)','#eee','rgb(239,219,178,0.2)'],
 
       // (기본값 true) 구역 내 컨텐츠가 수직으로 중심에 위치하도록 합니다. true로 설정되면 컨텐츠가 라이브러리로 포장됩니다.
       verticalCentered: false,
