@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hong Gi Seok PORTFOLIO</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    
+    <!-- fullpage 사용을 위한 CDN 및 css  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" rel="stylesheet">
+
+
+    <script src="js/fullpage.js" charset="utf-8"></script>
+    <script src="js/webpage_slide.js" charset="utf-8"></script>
+    <script src="js/mobile_slide.js" charset="utf-8"></script>
+  
+  </head>
+<body>
+  
+  <!-- right menu -->
+  <ul id="menu"> 
+    <li data-menuanchor="anchor1">
+      <a href="#anchor1">
+        <i class="fas fa-address-card"></i>
+        <span>About Me</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor2">
+      <a href="#anchor2">
+        <i class="fas fa-dice-one"></i>
+        <span>Project 01</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor3">
+      <a href="#anchor3">
+        <i class="fas fa-dice-two"></i>
+        <span>Project 02</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor4">
+      <a href="#anchor4">
+        <i class="fas fa-dice-three"></i>
+        <span>Project 03</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor5">
+      <a href="#anchor5">
+        <i class="fas fa-dice-four"></i>
+        <span>Project 04</span>
+      </a>
+    </li>
+  </ul>
+
+
+  <div id="fullpage">
+    <!--section01 : About me -->
+    <div class="section section01">
+      About Me
+
+    </div> <!-- end .section01-->
+
+
+    <!--section02 : Project_01 -->
+    <div class="section section02">
+      <div class="section_wrap">
+
+        <!-- 프로젝트01 소개 -->
+        <div class="introduce">
+          <h1>PROJECT 01</h1>
+          <h2>KYOBO BOOK</h2>
+          <h3>Open API, JSON</h3>
+          <h4>POINT COLOR</h4>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>
+            국내 도서 사이트인 교보문고의 웹페이지입니다.
+            <br><br>
+            도서 정보들은 Kakao에서 제공하는 Open API 데이터를 받아 AJAX를 사용하여 나타냈습니다.
+            <br>
+            소비자들이 상품 이미지에 집중할 수 있도록 배경을 흰색으로 하였고 로고의 컬러를 포인트 컬러로 사용하였습니다.
+            <br><br>
+          </p>
+          <a href="http://pager.kr/~ysb/307/21/kyobobook/html/main.html" target="_blank">MAIN PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/kyobobook/html/sub.html" target="_blank">SUB PAGE</a>
+        </div> <!-- end .introduce -->
+
+        <!-- 프로젝트01 img -->
+        <div class="webpage">
+          <div class="imgbox kyoboimg">
+            <img src="img/kyobobook_main.jpg" alt="kyobo">
+            <a href="http://pager.kr/~ysb/307/21/kyobobook/html/main.html" target="_blank"><i class="fas fa-search-plus"></i></a>
+          </div>
+        </div> <!-- end .webpage -->
+
+      </div> <!-- end .section_wrap -->
+    </div> <!-- end .section02-->
+
+
+    <!--section03 : Project_02 -->
+    <div class="section section03">
+      <div class="section_wrap">
+
+        <!-- 프로젝트02 소개 -->
+        <div class="introduce">
+          <h1>PROJECT 02</h1>
+          <h2>Exhibiz</h2>
+          <h3>Responsive Website</h3>
+          <h4>POINT COLOR</h4>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>
+            디자인 엑스포 개최를 홍보하는 웹페이지입니다.
+            <br><br>
+            화려하고 활동적인 느낌를 전달하는 분홍색과 예술 및 창의력과 독창적 에너지를 상징하는 보라색을 포인트 컬러로 사용하였습니다.
+            <br><br>
+            사용자가 엑스포 개최일까지 남은 기간을 확인할 수 있도록 자바스크립트로 구현하였습니다.
+            <br><br>
+            디스플레이 종류에 따라 화면의 크기가 자동으로<br>
+            최적화 되도록 반응형 웹페이지로 제작하였습니다.
+          </p>
+          <a href="http://pager.kr/~ysb/307/21/exhibiz/html/main.html">MAIN PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/exhibiz/html/sub.html">SUB PAGE</a>
+        </div> <!-- end .introduce -->
+
+        <!-- 프로젝트02 img  -->
+        <div class="webpage">
+          <div class="imgbox exhibizimg">
+            <img src="img/exhibiz_main.jpg" alt="exhibiz">
+            <a href="http://pager.kr/~ysb/307/21/exhibiz/html/main.html" target="_blank"><i class="fas fa-search-plus"></i></a>
+          </div>
+        </div> <!-- end .webpage -->
+
+        <div class="mobile mobile_01">
+          <div>
+            <img src="img/exhibiz_responsive.jpg" alt="exhibiz_responsive">
+          </div>
+        </div>
+
+
+      </div> <!-- end .section_wrap -->
+    </div> <!-- end .section03-->
+
+
+    <!--section04 : Project_03 -->
+    <div class="section section04">
+      <div class="section_wrap">
+
+        <!-- 프로젝트03 소개 -->
+        <div class="introduce">
+          <h1>PROJECT 03</h1>
+          <h2>Piquant Restaurant</h2>
+          <h3>Responsive Website</h3>
+          <h4>POINT COLOR</h4>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>
+            PIQUANT 레스토랑 홍보 웹페이지입니다.
+            <br><br>
+            레스토랑의 고급스러운 분위기를 표현하기 위해 검은색계열을 메인컬러로 사용하였으며 포인트 컬러로 옐로우계열의 컬러를 사용하였습니다.
+            <br><br>
+            디스플레이 종류에 따라 화면의 크기가 자동으로 <br>
+            최적화 되도록 반응형 웹페이지로 제작하였습니다.
+          </p>
+          <a href="http://pager.kr/~ysb/307/21/piquant/html/main.html">MAIN PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/piquant/html/sub.html">SUB PAGE</a>
+        </div> <!-- end .introduce -->
+
+        <!-- 프로젝트03 img -->
+        <div class="webpage">
+          <div class="imgbox piquantimg">
+            <img src="img/piquant_main.jpg" alt="piquant">
+            <a href="http://pager.kr/~ysb/307/21/piquant/html/main.html" target="_blank"><i class="fas fa-search-plus"></i></a>
+          </div>
+        </div> <!-- end .webpage -->
+
+        <div class="mobile mobile_02">
+          <div>
+            <img src="img/piquant_responsive.jpg" alt="piquant_responsive">
+          </div>
+        </div>
+
+      </div> <!-- end .section_wrap -->
+    </div> <!-- end .section04-->
+
+
+
+
+
+
+    <!--section05 : Project_04 -->
+    <div class="section section05">
+      <div class="section_wrap">
+
+        <!-- 프로젝트04 소개 -->
+        <div class="introduce">
+          <h1>PROJECT 04</h1>
+          <h2>MongChon Food</h2>
+          <h3>Shopping Mall</h3>
+          <h4>POINT COLOR</h4>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>
+            반찬 쇼핑몰인 몽촌반찬 웹페이지입니다.
+            <br><br>
+            소비자들이 반찬 이미지에 집중할 수 있도록 배경을 흰색으로 하여 제작하였습니다.
+            <br>
+            새로운 메뉴와 소비자가 많이 찾는 상품을 구분하여 찾고자하는 상품을 쉽고 편리하게 찾을 수 있도록 하였습니다.
+            <br>
+          </p>
+          <a href="http://pager.kr/~ysb/307/21/mcfood/html/main.html">MAIN PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/mcfood/html/sub.html">SUB PAGE</a>
+        </div> <!-- end .introduce -->
+
+
+        <!-- 프로젝트04 img -->
+        <div class="webpage">
+          <div class="imgbox mcfoodimg">
+            <img src="img/mcfood_main.jpg" alt="mcfood">
+            <a href="http://pager.kr/~ysb/307/21/mcfood/html/main.html" target="_blank"><i class="fas fa-search-plus"></i></a>
+          </div>
+        </div> <!-- end .webpage -->
+
+      </div> <!-- end .section_wrap -->
+    </div> <!-- end .section05-->
+
+
+  </div> <!-- end #fullpage -->
+
+
+
+
+
+
+
+
+</body>
+</html>
