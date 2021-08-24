@@ -16,6 +16,7 @@
     <script src="js/fullpage.js" charset="utf-8"></script>
     <script src="js/webpage_slide.js" charset="utf-8"></script>
     <script src="js/mobile_slide.js" charset="utf-8"></script>
+    <script src="js/home.js" charset="utf-8"></script>
   
   </head>
 <body>
@@ -24,8 +25,8 @@
   <ul id="menu"> 
     <li data-menuanchor="anchor1">
       <a href="#anchor1">
-        <i class="fas fa-address-card"></i>
-        <span>About Me</span>
+        <i class="fas fa-home"></i>
+        <span>Home</span>
       </a>
     </li>
     <li data-menuanchor="anchor2">
@@ -52,50 +53,31 @@
         <span>Project 04</span>
       </a>
     </li>
+    <li data-menuanchor="anchor6">
+      <a href="#anchor6">
+        <i class="fas fa-address-card"></i>
+        <span>About Me</span>
+      </a>
+    </li>
   </ul>
 
 
   <div id="fullpage">
 
-    <!--section01 : About me -->
+    <!--section01 : Home -->
     <div class="section section01">
-      <div id="intro">
-        <div class="txt">Web Developer</div>
-        <ul class="icon">
-          <li>
-            <a>
-              <i class="far fa-envelope"></i>
-              <span>hgsok3056@naver.com</span>
-            </a>
-          </li>
-          <li>
-            <a>
-              <i class="fas fa-mobile-alt"></i>
-              <span>010-2769-0139</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/GiSeok-Hong" target="_blank">
-              <i class="fab fa-github-alt"></i>
-              <span>https://github.com/GiSeok-Hong</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://velog.io/@hih0327" target="_blank">
-              <i class="fas fa-pen-nib"></i>
-              <span>https://velog.io/@hih0327</span>
-            </a>
-          </li>
-        </ul>
-        <div class="intro_container">
-          <div class="intro_img">
-            <img src="img/tempimg.jpg" alt="임시 이미지">
-          </div> <!-- end .intro_img -->
-          <div class="intro_info">
-            
-          </div> <!-- end .intro_info -->
+      <div class="home_wrap">
+        <div class="txt">
+          Web Developer
         </div>
-      </div> <!-- end #intro -->
+        <div class="imgbox">
+          <img src="img/back_2.png" alt="back_img" id="back_img">
+          <img src="img/braket.png" alt="braket_img" id="braket_img">
+          <img src="img/css.png" alt="css_img" id="css_img">
+          <img src="img/javascript.png" alt="js_img" id="js_img">
+          <img src="img/setting.png" alt="setting_img" id="setting_img">
+        </div>
+      </div>
     </div> <!-- end .section01-->
 
 
@@ -116,14 +98,16 @@
           <p>
             국내 도서 사이트인 교보문고의 웹페이지입니다.
             <br><br>
-            Kakao에서 제공하는 Open API 데이터를 받아 AJAX를 사용하여 도서 정보들을 나타냈습니다.
+            Kakao에서 제공하는 Open API 데이터를 받아 AJAX를 사용하여 <br>
+            도서 정보들을 나타냈습니다.
             <br><br>
             소비자들이 상품 이미지에 집중할 수 있도록 배경을 흰색으로 하였고 로고의 컬러를 포인트 컬러로 사용하였습니다.
             <br><br>
-            jQuery를 사용하여 
+            jQuery를 사용하여 슬라이더, 배너 등을 구현하여 사용자들의 편의성을 높혔습니다.
           </p>
           <a href="http://pager.kr/~ysb/307/21/kyobobook/html/main.html" target="_blank">MAIN PAGE</a>
           <a href="http://pager.kr/~ysb/307/21/kyobobook/html/sub.html" target="_blank">SUB PAGE</a>
+          <a href="https://github.com/GiSeok-Hong/CloneCoding/tree/master/kyobobook/html" target="_blank"><i class="fab fa-github-alt"></i></a>
         </div> <!-- end .introduce -->
 
         <!-- 프로젝트01 img -->
@@ -163,8 +147,9 @@
             디스플레이 종류에 따라 화면의 크기가 자동으로<br>
             최적화 되도록 반응형 웹페이지로 제작하였습니다.
           </p>
-          <a href="http://pager.kr/~ysb/307/21/exhibiz/html/main.html">MAIN PAGE</a>
-          <a href="http://pager.kr/~ysb/307/21/exhibiz/html/sub.html">SUB PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/exhibiz/html/main.html" target="_blank">MAIN PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/exhibiz/html/sub.html" target="_blank">SUB PAGE</a>
+          <a href="https://github.com/GiSeok-Hong/CloneCoding/tree/master/exhibiz/html" target="_blank"><i class="fab fa-github-alt"></i></a>
         </div> <!-- end .introduce -->
 
         <!-- 프로젝트02 img  -->
@@ -208,8 +193,9 @@
             디스플레이 종류에 따라 화면의 크기가 자동으로 <br>
             최적화 되도록 반응형 웹페이지로 제작하였습니다.
           </p>
-          <a href="http://pager.kr/~ysb/307/21/piquant/html/main.html">MAIN PAGE</a>
-          <a href="http://pager.kr/~ysb/307/21/piquant/html/sub.html">SUB PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/piquant/html/main.html" target="_blank">MAIN PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/piquant/html/sub.html" target="_blank">SUB PAGE</a>
+          <a href="https://github.com/GiSeok-Hong/CloneCoding/tree/master/piquant/html" target="_blank"><i class="fab fa-github-alt"></i></a>
         </div> <!-- end .introduce -->
 
         <!-- 프로젝트03 img -->
@@ -257,8 +243,9 @@
             새로운 메뉴와 소비자가 많이 찾는 상품을 구분하여 찾고자하는 상품을 쉽고 편리하게 찾을 수 있도록 하였습니다.
             <br><br>
           </p>
-          <a href="http://pager.kr/~ysb/307/21/mcfood/html/main.html">MAIN PAGE</a>
-          <a href="http://pager.kr/~ysb/307/21/mcfood/html/sub.html">SUB PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/mcfood/html/main.html" target="_blank">MAIN PAGE</a>
+          <a href="http://pager.kr/~ysb/307/21/mcfood/html/sub.html" target="_blank">SUB PAGE</a>
+          <a href="https://github.com/GiSeok-Hong/CloneCoding/tree/master/mcfood/html" target="_blank"><i class="fab fa-github-alt"></i></a>
         </div> <!-- end .introduce -->
 
 
@@ -274,6 +261,80 @@
     </div> <!-- end .section05-->
 
 
+    <!-- section06: About Me -->
+    <div class="section section06">
+
+      <div id="intro">
+        <div class="txt">Web Developer</div> <!-- end .txt -->
+
+        <ul class="icon">
+          <li>
+            <a>
+              <i class="far fa-envelope"></i>
+              <span>hgsok3056@naver.com</span>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fas fa-mobile-alt"></i>
+              <span>010-2769-0139</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/GiSeok-Hong" target="_blank">
+              <i class="fab fa-github-alt"></i>
+              <span>https://github.com/GiSeok-Hong</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://velog.io/@hih0327" target="_blank">
+              <i class="fas fa-pen-nib"></i>
+              <span>https://velog.io/@hih0327</span>
+            </a>
+          </li>
+        </ul> <!-- end .icon -->
+
+        <div class="intro_container">
+          <div class="intro_img">
+            <img src="img/tempimg.jpg" alt="임시 이미지">
+          </div> <!-- end .intro_img -->
+          
+          <div class="intro_info">
+            <table>
+              <tr>
+                <th>Name</th>
+                <td>Hong Giseok</td>
+                <th>Address</th>
+                <td>Hwaseong-si</td>
+              </tr>
+              <tr>
+                <th>Age</th>
+                <td>31</td>
+                <th>E-mail</th>
+                <td>hgsok3056@naver.com</td>
+              </tr>
+              <tr>
+                <th>Birth</th>
+                <td>1991.03.27</td>
+                <th>Phone</th>
+                <td>010-2769-0139</td>
+              </tr>
+              <tr>
+                <th>Certificate</th>
+                <td>
+                  정보처리기사 <br>
+                  웹디자인기능사 (필기합격)
+                </td>
+                <th>Education</th>
+                <td>한양대학교 ERICA</td>
+              </tr>
+              
+             
+            </table>
+          </div> <!-- end .intro_info -->
+        </div> <!-- end .intro_container -->
+      </div> <!-- end #intro -->
+    </div> <!-- end .secion06-->
   </div> <!-- end #fullpage -->
 
 

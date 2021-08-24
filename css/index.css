@@ -10,21 +10,17 @@
 #menu > li.active > a {color:#fff;}
 #menu > li.active > a > span {color:#fff;}
 
+/* home */
+.section01 > .home_wrap {width:1300px; height:100%; margin:0 auto; position: relative;}
+.section01 > .home_wrap > .txt {font-size: 48px; color: #fff; position: absolute; top:20%; left:50%; transform: translate(-50%, -50%);}
+.section01 > .home_wrap > .imgbox {width:400px; position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); }
+.section01 > .home_wrap > .imgbox > img {width:100%;}
+.section01 > .home_wrap > .imgbox > img:not(:first-of-type) {position: absolute; width: 80px;}
 
-/* intro */
-#intro {width:1300px; height:100%; margin: 0 auto; padding:50px;}
-#intro > .txt {width:100%; height:auto; text-align: center; font-size: 48px;}
-#intro > .icon {width:100%; height: 40px; display: flex; justify-content: center; margin:30px 0;}
-#intro > .icon > li {width:40px; height: 100%; position: relative; margin-right: 20px; border: 1px solid #fff; border-radius: 50%; background-color: #fff; cursor: pointer;}
-#intro > .icon > li > a {width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color:#000;}
-#intro > .icon > li:hover {background-color: #000; border-color: #000;}
-#intro > .icon > li:hover > a {color:#fff;}
-#intro > .icon > li:hover > a > span {display: block;}
-#intro > .icon > li > a > span {position: absolute; top:40px; left:-130%; min-width: 150px;  background-color: #000; border-radius: 20px; display: none; font-size: 12px; text-align: center; padding:5px 8px;}
-
-
-.intro_container > .intro_img {width:300px; height:400px;}
-.intro_container > .intro_img > img {width:100%; height:100%;}
+#braket_img {top:0; left:100px;}
+#css_img {top: -20px; left:280px;}
+#js_img {top:70px; left:410px;}
+#setting_img {top:150px; left:405px;}
 
 
 
@@ -39,6 +35,7 @@
 .section_wrap > .introduce > ul > li {width:30px; height: 30px; border-radius: 50%; margin-right: 10px;}
 .section_wrap > .introduce > p {width: 100%; margin-bottom: 50px; line-height: 1.4; font-size: 12px;}
 .section_wrap > .introduce > a {display: inline-block; width:130px;  background-color: #333; color: #fff; margin-right: 10px; text-align: center;  border: 1px solid #333; padding:8px 0;}
+.section_wrap > .introduce > a:last-of-type {width:40px;}
 .section_wrap > .introduce > a:hover {background-color: #fff; color: #333;}
 
 
@@ -82,3 +79,23 @@
 .section05 > .section_wrap > .introduce > ul > li:nth-of-type(2) {background-color: #333;}
 .section05 > .section_wrap > .introduce > ul > li:last-of-type {background-color: #1e1a34;}
 
+
+/* intro */
+#intro {width:1300px; height:100%; margin: 0 auto; padding:100px 50px;}
+#intro > .txt {width:100%; height:auto; text-align: center; font-size: 48px; color:#fff;}
+#intro > .icon {width:100%; height: 40px; display: flex; justify-content: center; margin:50px 0;}
+#intro > .icon > li {width:40px; height: 100%; position: relative; margin-right: 20px; border: 1px solid #fff; border-radius: 50%; background-color: #fff; cursor: pointer;}
+#intro > .icon > li > a {width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color:#333; font-size: 22px;}
+#intro > .icon > li:hover {background-color: #000; border-color: #000;}
+#intro > .icon > li:hover > a {color:#fff;}
+#intro > .icon > li:hover > a > span {display: block;}
+#intro > .icon > li > a > span {position: absolute; top:40px; left:-130%; min-width: 150px;  background-color: #000; border-radius: 20px; display: none; font-size: 12px; text-align: center; padding:5px 8px;}
+
+#intro > .intro_container {background-color: #eee; border-radius: 10px; overflow: hidden; width:1000px; margin:0 auto; display: flex;}
+.intro_container > .intro_img {width:300px; height:400px;}
+.intro_container > .intro_img > img {width:100%; height:100%;}
+
+.intro_container > .intro_info {padding:50px; width: 700px;}
+.intro_container > .intro_info > table {width:100%; line-height: 30px;}
+.intro_container > .intro_info > table > th {width:200px;}
+.intro_container > .intro_info > table > td {width:200px;}
