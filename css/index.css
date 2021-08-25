@@ -17,10 +17,17 @@
 .section01 > .home_wrap > .imgbox > img {width:100%;}
 .section01 > .home_wrap > .imgbox > img:not(:first-of-type) {position: absolute; width: 80px;}
 
-#braket_img {top:0; left:100px;}
+/* #notebook_img {} */
+#braket_img {top:30px; left:70px;}
 #css_img {top: -20px; left:280px;}
-#js_img {top:70px; left:410px;}
-#setting_img {top:150px; left:405px;}
+#setting_img {top:150px; left:405px; width:50px;}
+#book_img {top: 80px; left:-30px; width:200px;}
+#phone_img {bottom:-20px; left:20px; width:120px;}
+#js_img {bottom:230px; left:400px;}
+#cup_img {bottom:-20px; right:-70px; width:120px;}
+#x_img {bottom:160px; left:15px; width:100px;}
+#html_img {bottom:12px; left:123px; width:260px;}
+#jquery_img {bottom:320px; left:100px; width:100px;}
 
 
 
